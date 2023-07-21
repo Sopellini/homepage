@@ -9,3 +9,24 @@ h1 {
 h2 {
 	color: #1460AA;
 }
+
+.red_class {
+	color: red
+}
+
+#music {
+	background: lightgray;
+}
+
+a {
+	color: lightblue;
+}
+
+section a {
+	color: orange;
+}
+
+.my-article p {
+	background: lightgreen;
+	color: darkviolet;
+}
