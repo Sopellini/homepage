@@ -23,10 +23,18 @@ a {
 }
 
 section a {
-	color: orange;
+	color: inherit;
+}
+
+.my-article {
+	color: hotpink;
 }
 
 .my-article p {
 	background: lightgreen;
 	color: darkviolet;
+}
+
+.about {
+	color: rgb(130, 10, 30);
 }
