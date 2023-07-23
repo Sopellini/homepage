@@ -1,40 +1,45 @@
 main {
-	background: #fefefe;
-}
-
-h1 {
-	color: darkmagenta;
+	background: #ede4cb;
 }
 
 h2 {
-	color: #1460AA;
-}
-
-.red_class {
-	color: red
+	color: #0b3ca4;
 }
 
 #music {
-	background: lightgray;
+	background: #d7d0bf;
 }
 
 a {
-	color: lightblue;
+	color: rgb(19, 78, 115);
 }
 
 section a {
 	color: inherit;
 }
 
-.my-article {
-	color: hotpink;
-}
-
-.my-article p {
-	background: lightgreen;
-	color: darkviolet;
+p {
+	color: rgb(58, 63, 108);
 }
 
 .about {
-	color: rgb(130, 10, 30);
+	color: rgb(25, 88, 236);
+}
+
+.main-header {
+	color: darkmagenta;
+}
+
+.article-header {
+	color: rgb(29, 153, 33);
+	text-decoration: wavy;
+}
+
+.footer {
+	background-color: rgba(201, 225, 140, 0.874);
+	text-decoration: overline dashed;
+}
+
+.nav-menu {
+	background-color: rgba(201, 225, 140, 0.874);
 }
