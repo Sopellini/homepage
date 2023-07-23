@@ -1,5 +1,5 @@
-const firstName = 'Łukasz';
-const age = 36;
+let userName = prompt("Jak masz na imię?")
 
-console.log(`Nazywam się ${firstName} i mam ${age} lat`);
+alert(`Cześć ${userName}! Witam Cię na mojej stronie.`);
 
+console.log(`${userName} odwiedził(a) Twoją stronę.`)
