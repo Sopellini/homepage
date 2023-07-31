@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 main {
 	background: #ede4cb;
 }
@@ -42,4 +50,20 @@ p {
 
 .nav-menu {
 	background-color: rgba(201, 225, 140, 0.874);
+}
+
+section {
+	padding: 16px;
+}
+
+footer {
+	padding: 16px;
+}
+
+nav {
+	padding: 16px;
+}
+
+h1 {
+	padding: 16px;
 }
