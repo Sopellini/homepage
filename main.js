@@ -1,5 +1,2 @@
-let userName = prompt("Jak masz na imię?")
-
-alert(`Cześć ${userName}! Witam Cię na mojej stronie.`);
-
-console.log(`${userName} odwiedził(a) Twoją stronę.`)
+const mainHeader = document.querySelector('.header')
+mainHeader.innerHTML = '<h1>Cześć Gościu! To moja strona domowa.</h1>'
