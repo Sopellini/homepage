@@ -5,44 +5,45 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Strona domowa</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<nav class="nav-menu">
-			<a href="index.html">Strona główna</a>
-			<a href="my-bicycles.html">Moje rowery</a>
-			<a href="my-cats.html">Moje koty</a>
+		<nav class="navigation">
+			<a class="navigation__link" href="index.html">Strona główna</a>
+			<a class="navigation__link" href="my-bicycles.html">Moje rowery</a>
+			<a class="navigation__link" href="my-cats.html">Moje koty</a>
 		</nav>
 	</header>
 	<main>
-		<header class="main-header">
+		<header id="top" class="header">
 			<h1>Moje rowery</h1>
 		</header>
-		<section>
-			<h2>Szosa</h2>
+		<section class="section">
 			<article>
-				<p>Canyon Ultimate CF SL 7 disc</p>
-				<img src="canyon-ultimate.png" alt="Canyon Ultimate CF SL 7 Disc Grey" />
-				<p>Osprzęt: Shimano 105, waga: 8.0 kg</p>
+				<h2 class="article__header">Szosa</h2>
+				<p class="section__text">Canyon Ultimate CF SL 7 disc</p>
+				<img class="image" src="canyon-ultimate.png" alt="Canyon Ultimate CF SL 7 Disc Grey" />
+				<p class="section__text">Osprzęt: Shimano 105, waga: 8.0 kg</p>
 			</article>
-			<h2>Gravel</h2>
 			<article>
-				<p>Romet Aspre 2</p>
-				<img src="romet-aspre.png" alt="Romet Aspre 2 2021" />
-				<p>Osprzęt: Shimano GRX, waga: 11.0 kg</p>
+				<h2 class="article__header">Gravel</h2>
+				<p class="section__text">Romet Aspre 2</p>
+				<img class="image" src="romet-aspre.png" alt="Romet Aspre 2 2021" />
+				<p class="section__text">Osprzęt: Shimano GRX, waga: 11.0 kg</p>
 			</article>
-			<h2>MTB</h2>
 			<article>
-				<p>GT Avalanche 2.0</p>
-				<img src="gt-avalanche.png" alt="GT Avalanche 2.0" />
-				<p>Osprzęt: Shimano SLX, waga: 13.0 kg</p>
+				<h2 class="article__header">MTB</h2>
+				<p class="section__text">GT Avalanche 2.0</p>
+				<img class="image" src="gt-avalanche.png" alt="GT Avalanche 2.0" />
+				<p class="section__text">Osprzęt: Shimano SLX, waga: 13.0 kg</p>
 			</article>
 		</section>
 	</main>
 	<footer class="footer">
-		<p>Moja strona domowa - efekt szkolenia WTF: co ten frontend. <a href="#top">Wróć na górę strony</a></p>
+		<p>Moja strona domowa - efekt szkolenia WTF: co ten frontend. <a class="navigation__link" href="#top">Wróć na górę strony</a></p>
 	</footer>
 </body>
 

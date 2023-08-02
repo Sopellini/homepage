@@ -1,69 +1,57 @@
-html {
-	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
-main {
-	background: #ede4cb;
-}
-
-h2 {
-	color: #0b3ca4;
-}
-
-#music {
-	background: #d7d0bf;
-}
-
-a {
-	color: rgb(19, 78, 115);
-}
-
-section a {
-	color: inherit;
-}
-
-p {
-	color: rgb(58, 63, 108);
-}
-
-.about {
-	color: rgb(25, 88, 236);
-}
-
-.main-header {
+.header {
 	color: darkmagenta;
+	padding-left: 15px;
 }
 
-.article-header {
-	color: rgb(29, 153, 33);
-	text-decoration: wavy;
+.section {
+	background-color: rgb(239, 226, 210);
+	color: rgb(2, 81, 2);
+	border-radius: 20px;
+}
+
+.section__header {
+	background-color: darkgreen;
+	color: rgb(131, 211, 186);
+	max-width: fit-content;
+	border-radius: 20px;
+	padding: 6px;
+	position: relative;
+}
+
+.section__text {
+	padding-left: 6px;
+}
+
+.article__header {
+	color: rgb(155, 87, 15);
+	background-color: rgb(192, 146, 100);
+	max-width: fit-content;
+	border-radius: 20px;
+	padding: 6px;
+	position: relative;
 }
 
 .footer {
+	padding: 8px;
 	background-color: rgba(201, 225, 140, 0.874);
-	text-decoration: overline dashed;
+	border-top: dashed;
 }
 
-.nav-menu {
+.navigation {
+	padding: 15px;
 	background-color: rgba(201, 225, 140, 0.874);
 }
 
-section {
-	padding: 16px;
+.navigation__link {
+	color: rgb(19, 78, 115);
 }
 
-footer {
-	padding: 16px;
+.image {
+	padding: 6px;
+	border-radius: 20px;
 }
 
-nav {
-	padding: 16px;
-}
-
-h1 {
-	padding: 16px;
+.image__size {
+	width: 500px;
+	height: 600px;
 }
